@@ -1,0 +1,25 @@
+DESIGN:
+
+Inputs -
+Reset Play/Pause Checkmark
+Type to change number value (remembers for next iteration)
+
+Click checkmark to "complete pomo stage":
+  - Starts the next stage (work -> break or break -> work)
+  - Clicking the checkmark during break will increment the pomo count
+  
+Click reset button to go back to beginning of stage:
+  - Sets timer back to max
+  - If timer already max, go to previous stage (and decrease pomo count if we are going back to our last break)
+  
+Click play/pause to pause/resume timer
+
+
+UI:
+
+When the timer hits 0, the page says "Break time" or "work time" but doesn't change until you hit check
+Progress Bar for time remaining (maybe I can put the stage duration input here?)
+Maybe carousel?
+
+  
+260w x 160h is the size of the box im working with
